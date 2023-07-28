@@ -7,11 +7,13 @@ from os import path
 f_path = path.exists("front.txt") #checks for front.txt's path
 b_path = path.exists("back.txt")#checks for back.txt's path
 
+#finding directories for each image used
 left_path = os.path.dirname(os.path.realpath('leftarrow.png')) + '\Downloads\SDEV140_Project-main\SDEV140_Project-main\\leftarrow.png'
 right_path = os.path.dirname(os.path.realpath('rightarrow.png')) + '\Downloads\SDEV140_Project-main\SDEV140_Project-main\\rightarrow.png'
 flip_path = os.path.dirname(os.path.realpath('flipimg.png')) + '\Downloads\SDEV140_Project-main\SDEV140_Project-main\\flipimg.png'
 flash_path = os.path.dirname(os.path.realpath('flash.png')) + '\Downloads\SDEV140_Project-main\SDEV140_Project-main\\flash.png'
-print(left_path)
+
+
 if f_path and b_path: #checking for both
   pass
 else:
